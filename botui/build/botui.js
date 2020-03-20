@@ -27,12 +27,12 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 雾时之森"
+        content: "这里是 小新的学习笔记"
     })
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "一个可爱的蓝孩子~"
+        content: "一个三观正常的蓝孩子~"
     })
 }).then(function() {
     return botui.action.button({
@@ -65,17 +65,17 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主修的网络工程专业，是个即将毕业的大四狗"
+            content: "主修的软件工程专业，是个乐观的大二狗"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "略懂HTML/CSS/JavaScript/PHP，偶尔也折腾易语言、Python"
+            content: "目前主攻java，略懂C/c++/python，偶尔也折腾html/css"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "不过还是比较熟悉手机刷机、主机DIY与系统安装"
+            content: "学了一点简单的乐理知识，喜欢用吉他弹奏一些优美的纯音乐"
         })
     }).then(function() {
         return botui.message.bot({
@@ -86,14 +86,14 @@ var other = function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 雾时之森 呢？ 🤔",
+                text: "为什么叫 鲸落南北 呢？ 🤔",
                 value: "next"
             }]
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "一次起昵称时偶然打出了这个名字，于是我就沿用了下来，嗯！"
+            content: "刷沙雕帖子的时候看到就顺手拿来用了，嗯！"
         })
     }).then(function() {
         return botui.action.button({
@@ -106,7 +106,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "emmmmm，看备案信息你就知道了_(:з」∠)_"
+            content: "emmmmm，并没有_(:з」∠)_"
         })
     }).then(function(res) {
         return botui.message.bot({
